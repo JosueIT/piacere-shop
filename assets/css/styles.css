@@ -1,0 +1,278 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #2c2c2c;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60px; /* Asegúrate de que "px" esté en minúsculas */
+    border-bottom: solid 0.5px #2c2c2c;
+}
+
+.logo-sub-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    width: 145px;
+    height: auto;
+    margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+
+nav h3 {
+    margin-left: 25px; /* Ajusta el margen derecho según tus necesidades */
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #a50f0f;
+}
+
+.fotografia-principal {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 450px;
+    max-height: 450px;
+    margin-top: 2em;
+    background-image: url('/assets/img/picacho.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #2c2c2c;
+    padding: 1em;
+}
+
+article h2 {
+    margin-top: 25px;
+    color: #2c2c2c;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.zonas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.zona {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: auto;
+}
+
+.ir-zonas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-weight: 300;
+}
+
+.img-zona-1 {
+    background-image: url('/assets/img/comedor-principal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.img-zona-2 {
+    background-image: url('/assets/img/recamara-principal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.img-zona-3 {
+    background-image: url('/assets/img/Lounge.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.img-zona-4 {
+    background-image: url('/assets/img/comedor\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.titulo-zona {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+    background-color: #fbfbfb;
+}
+
+.titulo-zona h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fila-zona {
+    display: flex;
+    min-width: 800px;
+}
+
+.ir-zonas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.ir-zonas a {
+    text-decoration: none;
+    color: #a50f0f;
+    font-weight: 300;
+}
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+}
+
+.articulo-lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 95px;
+    background-color: #fbfbfb;
+    max-width: 650px;
+    margin: 5px;
+    box-shadow: 1px 2px 3px #e8e8e8;
+}
+
+.contenedor-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+}
+
+.contenedor-producto i {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contenedor-producto p {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.imagen-lista-1 {
+    background-image: url('/assets/img/chloe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5%;
+    height: 90px;
+    min-width: 75px;
+}
+
+.imagen-lista-2 {
+    background-image: url('/assets/img/dream.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5%;
+    height: 90px;
+    min-width: 75px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 75px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    .logo-sub-titulo {
+        margin-top: 10px;
+    }
+}
